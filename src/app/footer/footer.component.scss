@@ -1,0 +1,21 @@
+footer {
+  position: relative;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: larger;
+  padding: 10px 0;
+  margin-top: 50px;
+  border-top: 1px solid white;
+}
+
+.mail {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.mail a {
+  color: #fff;
+  text-decoration: none;
+}

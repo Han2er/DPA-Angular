@@ -1,0 +1,44 @@
+$primary-color: #9c27b0;
+// $primary-color: #c700ff;
+$card-bg-color: #1f1e1c;
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 50px;
+}
+
+.card {
+  width: 400px;
+  height: 300px;
+  transition: transform 0.1s ease;
+}
+.card:hover {
+  transform: scale(1.02);
+}
+
+mat-card {
+  border: 1px solid $primary-color;
+
+  opacity: 0.8;
+  background-color: $card-bg-color;
+  background-image: linear-gradient($primary-color 1px, transparent 1px),
+    linear-gradient(to right, $primary-color 1px, transparent 1px);
+  background-size: 60px 50px;
+  background-position: center;
+}
+
+mat-card-title,
+mat-card-subtitle,
+.mdc-button {
+  font-family: "BPG Nino Mtavruli", sans-serif !important;
+  background-color: #1f1e1c;
+}
+
+mat-card-actions {
+  position: absolute;
+  bottom: 0;
+}

@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("//cdn.web-fonts.ge/fonts/bpg-nino-mtavruli/css/bpg-nino-mtavruli.min.css");
+
+$font-color: white;
+$bg-color: #0f1221;
+$gradient-color: linear-gradient(
+  90deg,
+  rgba(135, 22, 144, 1) 0.36%,
+  rgba(90, 18, 159, 1) 100%
+);
+
+:root {
+  --main-bg-color: $bg-color;
+  --main-font-color: $font-color;
+  --gradient-color: $gradient-color;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1d242f;
+  background: rgba(29, 36, 47, 1);
+
+  font-family: "BPG Nino Mtavruli", sans-serif !important;
+  padding: 30px;
+  color: $font-color;
+}
+
+// html, body { height: 100%; }
+// body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

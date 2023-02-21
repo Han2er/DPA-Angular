@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 173.69 48.51">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: .01em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        font-family: AcuminVariableConcept, 'Acumin Variable Concept';
+        font-size: 18.95px;
+        font-variation-settings: 'wght' 194, 'wdth' 100, 'slnt' 0;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        letter-spacing: 0em;
+      }
+
+      .cls-12 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <text class="cls-2" transform="translate(17.6 20.3)"><tspan class="cls-10" x="0" y="0">E</tspan><tspan class="cls-9" x="11.16" y="0">S</tspan><tspan x="22.37" y="0">I</tspan><tspan class="cls-4" x="27.1" y="0">G</tspan><tspan x="40.77" y="0">N A</tspan><tspan class="cls-5" x="71.8" y="0">N</tspan><tspan x="85.94" y="0">D </tspan><tspan class="cls-12" x="104.34" y="0">P</tspan><tspan class="cls-8" x="115.86" y="0">R</tspan><tspan class="cls-5" x="127.86" y="0">I</tspan><tspan class="cls-11" x="132.79" y="0">N</tspan><tspan x="146.87" y="0">T</tspan><tspan class="cls-3" x="34.27" y="22.75">A</tspan><tspan class="cls-6" x="46.21" y="22.75">C</tspan><tspan x="58.95" y="22.75">ADE</tspan><tspan class="cls-7" x="95.62" y="22.75">M</tspan><tspan x="111.98" y="22.75">Y</tspan></text>
+      <g>
+        <path class="cls-1" d="M3.96,0V3.16h1.58c5.76,0,10.43,4.67,10.43,10.43s-4.67,10.43-10.43,10.43h-1.58v3.16c7.51,0,13.59-6.08,13.59-13.59S11.47,0,3.96,0Z"/>
+        <g>
+          <rect class="cls-1" x="-1.03" y="1.25" width="5.4" height="2.9" transform="translate(4.37 1.03) rotate(90)"/>
+          <rect class="cls-1" x="-1.03" y="23.03" width="5.4" height="2.9" transform="translate(26.16 22.81) rotate(90)"/>
+          <polygon class="cls-1" points="2.7 5.76 2.1 5.76 1.25 5.76 .65 5.76 0 7.86 .65 10.71 1.27 10.71 1.27 7.78 2.07 7.78 2.07 10.71 2.7 10.71 3.35 7.86 2.7 5.76"/>
+          <polygon class="cls-1" points=".65 21.03 1.25 21.03 2.1 21.03 2.7 21.03 3.35 18.93 2.7 16.08 2.07 16.08 2.07 19.01 1.27 19.01 1.27 16.08 .65 16.08 0 18.93 .65 21.03"/>
+        </g>
+        <rect class="cls-1" x=".22" y="11.75" width="2.9" height=".51"/>
+        <rect class="cls-1" x=".22" y="12.62" width="2.9" height=".51"/>
+        <rect class="cls-1" x=".22" y="13.49" width="2.9" height=".51"/>
+        <rect class="cls-1" x=".22" y="14.36" width="2.9" height=".51"/>
+      </g>
+    </g>
+  </g>
+</svg>
