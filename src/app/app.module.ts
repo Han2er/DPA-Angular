@@ -16,6 +16,7 @@ import { MatCardModule } from '@angular/material/card';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { PartnersComponent } from './partners/partners.component';
 import { ContactComponent } from './contact/contact.component';
+import { CourseInfoComponent } from './course-info/course-info.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { ContactComponent } from './contact/contact.component';
     AboutUsComponent,
     PartnersComponent,
     ContactComponent,
+    CourseInfoComponent,
   ],
   imports: [
     BrowserModule,

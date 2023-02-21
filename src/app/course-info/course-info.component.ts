@@ -1,12 +1,17 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+// import courseData from '../data/courses.data.ts';
 
 @Component({
-  selector: 'app-courses',
-  templateUrl: './courses.component.html',
-  styleUrls: ['./courses.component.scss'],
+  selector: 'app-course-info',
+  templateUrl: './course-info.component.html',
+  styleUrls: ['./course-info.component.scss'],
 })
-export class CoursesComponent {
-  courses = [
+export class CourseInfoComponent implements OnInit {
+  constructor(private route: ActivatedRoute) {}
+  courseName = parseInt(this.route.snapshot.params['course']);
+
+  data = [
     {
       id: 1,
       title: 'გრაფიკული დიზაინი',
@@ -71,4 +76,13 @@ export class CoursesComponent {
       price: 500,
     },
   ];
+
+  info = this.data.find((el) => el.id === this.courseName)!;
+
+  ngOnInit(): void {
+    console.log(this.courseName, typeof this.courseName);
+
+    // console.log(this.data[this.courseName - 1]);
+    console.log(this.info);
+  }
 }
