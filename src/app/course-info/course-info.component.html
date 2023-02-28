@@ -1,7 +1,17 @@
-<h2>{{ info.title }}</h2>
-<h3>{{ info.subtitle }}</h3>
-<img src="" alt="" />
-<h3>ღირებულება: {{ info.price }}₾</h3>
+<h2>{{ info?.title }}</h2>
+<h3>{{ info?.subtitle }}</h3>
+<div class="banner-wrapper">
+  <img class="banner" src="{{ info?.imgUrl }}" alt="banner" />
+  <div class="time-info-wrapper">
+    <p>20 ლექცია</p>
+    <p>კვირაში 2-ჯერ</p>
+    <p>დრო: 20:00-23:00</p>
+  </div>
+</div>
+<h3>
+  ღირებულება: <span class="old-price">{{ oldPrice }}₾</span> -
+  <span class="new-price">{{ info?.price }}₾</span>
+</h3>
 <br />
 <button mat-flat-button color="primary">
   სილაბუსი <mat-icon>download</mat-icon>
@@ -9,8 +19,11 @@
 <br />
 <br />
 
-<p>
-  <span>მენტორები:</span> თამუნა ჩუბკო - გრაფიკული დიზაინერი / ილუსტრატორი
-  <br />
-  გიორგი ნიკოლაიშვილი - ტექნიკური დიზაინერი / პრინტ მენეჯერი
-</p>
+<div class="mentors-wraper">
+  <h4>მენტორები:</h4>
+  <div class="mentors">
+    <p *ngFor="let ment of info?.mentors">
+      {{ ment.name }} - {{ ment.profession }}
+    </p>
+  </div>
+</div>

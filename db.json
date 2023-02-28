@@ -4,64 +4,146 @@
       "id": 1,
       "title": "გრაფიკული დიზაინი",
       "subtitle": "თეორიული და პრაქტიკული კურსი",
-      "imgUrl": "",
-      "price": 500
+      "imgUrl": "../../assets/imgs/graphic-design.png",
+      "price": 600,
+      "mentors": [
+        {
+          "name": "თამუნა ჩუბკო",
+          "profession": "გრაფიკული დიზაინერი / ილუსტრატორი"
+        },
+        {
+          "name": "გიორგი ნიკოლაიშვილი",
+          "profession": "ტექნიკური დიზაინერი / პრინტ მენეჯერი"
+        }
+      ]
     },
     {
       "id": 2,
       "title": "ტექნიკური დიზაინი",
       "subtitle": "თეორიული და პრაქტიკული კურსი",
-      "imgUrl": "",
-      "price": 500
+      "imgUrl": "../../assets/imgs/tech-design.jpg",
+      "price": 700,
+      "mentors": [
+        {
+          "name": "თამუნა ჩუბკო",
+          "profession": "გრაფიკული დიზაინერი / ილუსტრატორი"
+        },
+        {
+          "name": "გიორგი ნიკოლაიშვილი",
+          "profession": "ტექნიკური დიზაინერი / პრინტ მენეჯერი"
+        }
+      ]
     },
     {
       "id": 3,
       "title": "დამწყები დიზაინერებისთვის",
       "subtitle": "პრაქტიკული კურსი",
-      "imgUrl": "",
-      "price": 500
+      "imgUrl": "../../assets/imgs/beginners-graphic-design.png",
+      "price": 500,
+      "mentors": [
+        {
+          "name": "თამუნა ჩუბკო",
+          "profession": "გრაფიკული დიზაინერი / ილუსტრატორი"
+        },
+        {
+          "name": "გიორგი ნიკოლაიშვილი",
+          "profession": "ტექნიკური დიზაინერი / პრინტ მენეჯერი"
+        }
+      ]
     },
     {
       "id": 4,
       "title": "Adobe inDesign",
       "subtitle": "საბაზისო კურსი",
-      "imgUrl": "",
-      "price": 500
+      "imgUrl": "../../assets/imgs/indesign.png",
+      "price": 400,
+      "mentors": [
+        {
+          "name": "თამუნა ჩუბკო",
+          "profession": "გრაფიკული დიზაინერი / ილუსტრატორი"
+        },
+        {
+          "name": "გიორგი ნიკოლაიშვილი",
+          "profession": "ტექნიკური დიზაინერი / პრინტ მენეჯერი"
+        }
+      ]
     },
     {
       "id": 5,
       "title": "Autodesk Fusion 360",
       "subtitle": "საბაზისო კურსი",
-      "imgUrl": "",
-      "price": 500
+      "imgUrl": "../../assets/imgs/fusion360.jpg",
+      "price": 600,
+      "mentors": [
+        {
+          "name": "ნიკოლოზ ლეჟავა",
+          "profession": "გრაფიკული დიზაინერი / ტექნიკური დიზაინერი / 3D დიზაინერი (Mesh, CAD, CAM, CAE) / ინჟინერი-კონსტრუქტორი / ვებ დეველოპერი / ადამინური რესურსები-HR / It support / ხარისხის კონტროლი ..."
+        }
+      ]
     },
     {
       "id": 6,
       "title": "Corel Draw",
       "subtitle": "საბაზისო კურსი",
-      "imgUrl": "",
-      "price": 500
+      "imgUrl": "../../assets/imgs/cdg2022.jpg",
+      "price": 500,
+      "mentors": [
+        {
+          "name": "გიორგი ნიკოლაიშვილი",
+          "profession": "ტექნიკური დიზაინერი / პრინტ მენეჯერი"
+        }
+      ]
     },
     {
       "id": 7,
       "title": "Adobe Illustraor",
       "subtitle": "საბაზისო კურსი",
-      "imgUrl": "",
-      "price": 500
+      "imgUrl": "../../assets/imgs/illustrator.jpg",
+      "price": 500,
+      "mentors": [
+        {
+          "name": "თამუნა ჩუბკო",
+          "profession": "გრაფიკული დიზაინერი / ილუსტრატორი"
+        },
+        {
+          "name": "გიორგი ნიკოლაიშვილი",
+          "profession": "ტექნიკური დიზაინერი / პრინტ მენეჯერი"
+        }
+      ]
     },
     {
       "id": 8,
       "title": "Adobe Photoshop",
       "subtitle": "საბაზისო კურსი",
-      "imgUrl": "",
-      "price": 500
+      "imgUrl": "../../assets/imgs/photoshop.jpg",
+      "price": 500,
+      "mentors": [
+        {
+          "name": "თამუნა ჩუბკო",
+          "profession": "გრაფიკული დიზაინერი / ილუსტრატორი"
+        },
+        {
+          "name": "გიორგი ნიკოლაიშვილი",
+          "profession": "ტექნიკური დიზაინერი / პრინტ მენეჯერი"
+        }
+      ]
     },
     {
       "id": 9,
       "title": "Adobe Acrobat Pro",
       "subtitle": "საბაზისო კურსი",
-      "imgUrl": "",
-      "price": 500
+      "imgUrl": "../../assets/imgs/acrobat.png",
+      "price": 500,
+      "mentors": [
+        {
+          "name": "თამუნა ჩუბკო",
+          "profession": "გრაფიკული დიზაინერი / ილუსტრატორი"
+        },
+        {
+          "name": "გიორგი ნიკოლაიშვილი",
+          "profession": "ტექნიკური დიზაინერი / პრინტ მენეჯერი"
+        }
+      ]
     }
   ]
 }

@@ -17,6 +17,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { PartnersComponent } from './partners/partners.component';
 import { ContactComponent } from './contact/contact.component';
 import { CourseInfoComponent } from './course-info/course-info.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { CourseInfoComponent } from './course-info/course-info.component';
     MatButtonModule,
     MatIconModule,
     MatCardModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
