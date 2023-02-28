@@ -1,3 +1,7 @@
+h2 {
+  color: var(--accent-color);
+}
+
 .banner-wrapper {
   position: relative;
   max-width: 400px;
@@ -47,4 +51,10 @@
 }
 .mentors-wraper h4 {
   color: #7b1fa2;
+}
+.mentor-name {
+  color: var(--accent-color);
+}
+.mentors p {
+  max-width: 600px;
 }

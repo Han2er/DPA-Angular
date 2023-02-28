@@ -23,7 +23,8 @@
   <h4>მენტორები:</h4>
   <div class="mentors">
     <p *ngFor="let ment of info?.mentors">
-      {{ ment.name }} - {{ ment.profession }}
+      <strong class="mentor-name">{{ ment.name }}</strong> -
+      {{ ment.profession }}
     </p>
   </div>
 </div>

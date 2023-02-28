@@ -1,8 +1,12 @@
 <div class="container">
-  <mat-card class="card" *ngFor="let cours of courses">
+  <mat-card
+    class="card"
+    *ngFor="let cours of courses"
+    [routerLink]="['/courses', cours.id]"
+  >
     <mat-card-header>
-      <mat-card-title>{{ cours.title }}</mat-card-title>
-      <mat-card-subtitle>{{ cours.subtitle }}</mat-card-subtitle>
+      <mat-card-title>{{ cours?.title }}</mat-card-title>
+      <mat-card-subtitle>{{ cours?.subtitle }}</mat-card-subtitle>
     </mat-card-header>
     <mat-card-content></mat-card-content>
     <mat-card-footer>
@@ -12,7 +16,7 @@
           გაიგე მეტი
         </button>
       </mat-card-actions>
-      <div class="price">{{ cours.price }} ₾</div>
+      <h3 class="price">{{ cours?.price }} ₾</h3>
     </mat-card-footer>
   </mat-card>
 </div>
