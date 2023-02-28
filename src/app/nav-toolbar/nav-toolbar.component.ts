@@ -28,6 +28,10 @@ export class NavToolbarComponent {
       link: '/contact',
     },
   ];
+  navLinkMain: NavigationLinks = {
+    name: 'main',
+    link: '/main',
+  };
 }
 interface NavigationLinks {
   name: string;
