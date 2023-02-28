@@ -25,7 +25,7 @@ jobs:
 
       - name: Deploy
         if: success()
-        uses: Han2er/DPA-Angular@v1
+        uses: Han2er/DPA-Angular@v0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
