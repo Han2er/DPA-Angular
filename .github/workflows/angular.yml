@@ -21,11 +21,11 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm build
+        run: npm run build
 
       - name: Deploy
         if: success()
-        uses: Han2er/DPA-Angular@v1
+        uses: Han2er/DPA-Angular@v1.0.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
