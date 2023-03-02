@@ -18,6 +18,8 @@ export class CourseInfoComponent implements OnInit {
 
   ngOnInit(): void {
     this.service.getCourses().subscribe((res) => {
+      // console.log('daaataaa: ', res);
+
       this.info = res[this.courseName - 1];
       this.oldPrice = this.info.price * 2;
       // console.log(res[this.courseName - 1]);

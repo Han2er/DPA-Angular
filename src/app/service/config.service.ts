@@ -8,12 +8,12 @@ import CourseData from '../intrface/CourseData';
 export class ConfigService {
   constructor(private http: HttpClient) {}
 
-  url = 'http://localhost:3000';
-  data = 'db.json';
+  // url = 'http://localhost:3000';
+  url = 'https://han2er.github.io/DPA-data/data.json';
 
   getCourses() {
-    return this.http.get<CourseData[]>(this.url + '/courses');
-    // return this.http.get(this.data)
+    return this.http.get<CourseData[]>(this.url);
+
     // .subscribe((res) => console.log(res))
   }
 }
