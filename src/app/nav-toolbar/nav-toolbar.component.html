@@ -6,7 +6,7 @@
     routerLink=""
     class="logo"
   />
-  <nav class="nav-wraper">
+  <nav id="nav" class="nav-wraper">
     <ul>
       <li *ngFor="let el of navLinks">
         <a
@@ -20,7 +20,7 @@
     </ul>
   </nav>
   <div class="burger">
-    <button mat-icon-button>
+    <button mat-icon-button (click)="burgerOnClick()">
       <mat-icon>menu</mat-icon>
     </button>
   </div>

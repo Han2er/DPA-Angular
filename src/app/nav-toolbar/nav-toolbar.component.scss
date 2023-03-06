@@ -118,10 +118,34 @@ nav ul {
   }
 }
 @media screen and (max-width: 700px) {
-  nav {
-    display: none;
-  }
   .burger {
     display: flex;
+  }
+
+  nav {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: black;
+    z-index: 10;
+    padding: 20px;
+    padding-top: 110px;
+    align-items: flex-start;
+    transform: translateX(100vw);
+    transition: transform 1s;
+  }
+  nav::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #00000080;
+    z-index: -1;
+  }
+  nav ul {
+    flex-direction: column;
   }
 }

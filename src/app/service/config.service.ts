@@ -8,12 +8,17 @@ import CourseData from '../intrface/CourseData';
 export class ConfigService {
   constructor(private http: HttpClient) {}
 
+  // local json server
   // url = 'http://localhost:3000';
-  url = 'https://han2er.github.io/DPA-data/data.json';
+
+  // github gh page as json server (fastest way so far)
+  private url = 'https://han2er.github.io/DPA-data/data.json';
+
+  // get from jsonbin.io needs more time even when it is private bin
+  private urlJsonbin = 'https://api.jsonbin.io/v3/b/6401175dc0e7653a05817612';
 
   getCourses() {
     return this.http.get<CourseData[]>(this.url);
-
-    // .subscribe((res) => console.log(res))
+    // return this.http.get<CourseData[]>(this.urlJsonbin + '?meta=false');
   }
 }

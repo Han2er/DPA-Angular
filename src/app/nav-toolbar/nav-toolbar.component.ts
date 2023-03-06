@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav-toolbar.component.scss'],
 })
 export class NavToolbarComponent {
-  navLinks: NavigationLinks[] = [
+  navLinks = [
     {
       name: 'ჩვენს შესახებ',
       link: '/about-us',
@@ -28,12 +28,12 @@ export class NavToolbarComponent {
       link: '/contact',
     },
   ];
-  navLinkMain: NavigationLinks = {
+  navLinkMain = {
     name: 'main',
     link: '/main',
   };
-}
-interface NavigationLinks {
-  name: string;
-  link: string;
+
+  burgerOnClick() {
+    document.getElementById('nav')!.style.transform = 'translateX(0)';
+  }
 }
