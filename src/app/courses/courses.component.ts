@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ConfigService } from '../service/config.service';
-import CourseData from '../intrface/CourseData';
+import CourseData from '../interface/CourseData';
 
 @Component({
   selector: 'app-courses',

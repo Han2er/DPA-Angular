@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ConfigService } from '../service/config.service';
-import CourseData from '../intrface/CourseData';
+import CourseData from '../interface/CourseData';
 // import courseData from '../data/courses.data.ts';
 
 @Component({

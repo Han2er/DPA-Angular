@@ -1,1 +1,47 @@
-<p>contact works!</p>
+<div class="container">
+  <h3>მოგვწერე მეილზე,სოციალურ ქსელში ან გამოგვიგზავნე წერილი</h3>
+</div>
+
+<form id="write-to-us">
+  <h4>მოგვწერეთ</h4>
+  <br />
+  <mat-form-field>
+    <mat-label>სახელი და გვარი</mat-label>
+    <input matInput placeholder="მაგ. პეტრე პეტრიაშვილი" />
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>ელ-ფოსტა</mat-label>
+    <input
+      type="email"
+      matInput
+      [formControl]="emailFormControl"
+      [errorStateMatcher]="matcher"
+      placeholder="მაგ. petre@example.com"
+    />
+    <mat-hint>შეიყვანეთ ელ-ფოსტა</mat-hint>
+    <mat-error
+      *ngIf="
+        emailFormControl.hasError('email') &&
+        !emailFormControl.hasError('required')
+      "
+    >
+      გთხოვთ შეიყვანოთ მოქმედი ელ-ფოსტა
+    </mat-error>
+    <mat-error *ngIf="emailFormControl.hasError('required')">
+      ელ-ფოსტა <strong>სავალდებულოა!</strong>
+    </mat-error>
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>დაგვიტოვეთ წერილი</mat-label>
+    <textarea
+      matInput
+      placeholder="მაგ. მადლობა რომ არსებობთ..."
+      rows="5"
+      cdkTextareaAutosize
+    ></textarea>
+  </mat-form-field>
+  <br />
+  <button type="submit" mat-flat-button color="primary">გაგზავნა</button>
+</form>
