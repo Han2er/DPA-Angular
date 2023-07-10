@@ -6,15 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./blog.component.scss'],
 })
 export class BlogComponent {
-  blogs:
-    | [
-        { id: 1; name: 'დააასდ'; prophecy: '11' },
-        { id: 2; name: 'sas'; prophecy: '11' },
-        { id: 3; name: 'qqwq'; prophecy: '11' }
-      ]
-    | undefined;
+  blogs: Array<any> | undefined;
 
   ngOnInit(): void {
-    // this.blogs
+    this.blogs = [
+      { id: 1, name: 'მარიამ კეკილიძე', prophecy: 'სტუდენტი', avatar: 'url' },
+      { id: 2, name: 'გიული ფოფხაძე', prophecy: 'ექიმი', avatar: 'url' },
+      { id: 3, name: 'გრიგოლ ხანძთელი', prophecy: 'მწერალი', avatar: 'url' },
+    ];
   }
 }

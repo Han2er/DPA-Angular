@@ -1,23 +1,11 @@
 <div class="container">
-  <div>dummy</div>
-  <mat-card class="card" *ngFor="let cours of blogs">
-    <mat-card-header>
-      <mat-card-title
-        >{{ cours?
-        <div class="name"></div>
-        }}</mat-card-title
-      >
-      <mat-card-subtitle>{{ cours?.prophecy }}</mat-card-subtitle>
-    </mat-card-header>
-    <mat-card-content></mat-card-content>
+  <mat-card class="card" *ngFor="let blog of blogs">
+    <mat-card-content>
+      <img mat-card-image src="{{ blog.avatar }}" alt="" />
+    </mat-card-content>
     <mat-card-footer>
-      <mat-card-actions>
-        <button mat-button>რეგისტაცია</button>
-        <button mat-button [routerLink]="['/courses', cours.id]">
-          გაიგე მეტი
-        </button>
-      </mat-card-actions>
-      <!-- <h3 class="price">{{ cours?.price }} ₾</h3> -->
+      <mat-card-title>{{ blog.name }}</mat-card-title>
+      <mat-card-subtitle>{{ blog.prophecy }}</mat-card-subtitle>
     </mat-card-footer>
   </mat-card>
 </div>
