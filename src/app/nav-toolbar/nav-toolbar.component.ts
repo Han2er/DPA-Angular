@@ -33,7 +33,13 @@ export class NavToolbarComponent {
     link: '/main',
   };
 
+  toggle: Boolean = false;
+
   burgerOnClick() {
-    document.getElementById('nav')!.style.transform = 'translateX(0)';
+    this.toggle == false
+      ? (document.getElementById('nav')!.style.transform = 'translateX(0)')
+      : (document.getElementById('nav')!.style.transform = 'translateX(100vw)');
+    this.toggle = !this.toggle;
+    // document.getElementById('nav')!.style.transform = 'translateX(0)';
   }
 }

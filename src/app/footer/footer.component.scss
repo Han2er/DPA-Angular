@@ -19,3 +19,9 @@ footer {
   color: #fff;
   text-decoration: none;
 }
+
+@media screen and (max-width: 555px) {
+  .mail a {
+    display: none;
+  }
+}
