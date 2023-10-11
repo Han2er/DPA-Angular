@@ -20,6 +20,9 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { PartnersComponent } from './partners/partners.component';
 import { ContactComponent } from './contact/contact.component';
 import { CourseInfoComponent } from './course-info/course-info.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { DashMainComponent } from './dash-main/dash-main.component';
+import { ArticlesComponent } from './articles/articles.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +36,9 @@ import { CourseInfoComponent } from './course-info/course-info.component';
     PartnersComponent,
     ContactComponent,
     CourseInfoComponent,
+    DashboardComponent,
+    DashMainComponent,
+    ArticlesComponent,
   ],
   imports: [
     BrowserModule,

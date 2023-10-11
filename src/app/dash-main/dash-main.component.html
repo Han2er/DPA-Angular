@@ -1,0 +1,32 @@
+<h2>მთავარი</h2>
+
+<div>
+  <h3>მიმდინარე სტატიები</h3>
+  <div *ngFor="let art of articlesData; index as i" class="article">
+    <h4>≪{{ art.title }}≫</h4>
+    <p>{{ art.article }}</p>
+    <button (click)="deleteData(i)" class="delete">წაშლა</button>
+  </div>
+</div>
+<div class="add-new-article">
+  <h3>სტატიის დამატება</h3>
+
+  <div class="wrap">
+    <label for="title">სათაური:</label> <br />
+    <input type="text" name="title" id="title" [(ngModel)]="inputText" /><br />
+  </div>
+
+  <div class="wrap">
+    <label for="article">სტატია:</label><br />
+    <textarea
+      name="article"
+      id="article"
+      cols="80"
+      rows="20"
+      [(ngModel)]="articleText"
+    ></textarea
+    ><br />
+  </div>
+
+  <input (click)="updateData()" type="submit" value="ატვირთვა" />
+</div>

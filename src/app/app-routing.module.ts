@@ -7,6 +7,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { PartnersComponent } from './partners/partners.component';
 import { ContactComponent } from './contact/contact.component';
 import { CourseInfoComponent } from './course-info/course-info.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/main', pathMatch: 'full' },
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'blog', component: BlogComponent },
   { path: 'partners', component: PartnersComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'dashboard', component: DashboardComponent },
 ];
 
 @NgModule({

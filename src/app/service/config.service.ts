@@ -17,8 +17,14 @@ export class ConfigService {
   // get from jsonbin.io needs more time even when it is private bin
   private urlJsonbin = 'https://api.jsonbin.io/v3/b/6401175dc0e7653a05817612';
 
+  private arctilesUrl = 'https://api.jsonbin.io/v3/b/64d3e9e6b89b1e2299ce19d0';
+
   getCourses() {
     return this.http.get<CourseData[]>(this.url);
     // return this.http.get<CourseData[]>(this.urlJsonbin + '?meta=false');
+  }
+
+  getArticles() {
+    return this.http.get<any>(this.arctilesUrl);
   }
 }

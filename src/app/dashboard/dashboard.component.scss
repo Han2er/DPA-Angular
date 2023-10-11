@@ -1,0 +1,49 @@
+.dash-wrap {
+  display: flex;
+  border: 1px solid red;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  padding-top: 80px;
+  gap: 40px;
+}
+
+.btn {
+  width: 220px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.btn-fill {
+  color: black;
+  font-weight: bolder;
+  font-size: larger;
+  background: #d9d9d9;
+}
+
+.btn-outline {
+  color: #d9d9d9;
+  border: 2px solid #d9d9d9;
+}
+.active {
+  outline: 5px solid #db00ff;
+}
+
+//
+//
+main {
+  width: 100%;
+  // min-height: 660px;
+  display: flex;
+  background-color: #d9d9d9;
+  padding: 50px;
+  color: black;
+  font-weight: 600;
+}
