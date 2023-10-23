@@ -1,0 +1,9 @@
+<div *ngFor="let course of courseData">
+  <p>{{ course.title }}</p>
+  <p>{{ course.id }}</p>
+  <br />
+  <button (click)="deleteData(course.id)">წაშლა</button>
+</div>
+
+<input id="title" type="text" name="title" [(ngModel)]="title" />
+<button (click)="updateData()">მაიტა დატაი</button>

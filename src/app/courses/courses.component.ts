@@ -14,7 +14,8 @@ export class CoursesComponent {
 
   ngOnInit(): void {
     this.service.getCourses().subscribe((res) => {
-      this.courses = res;
+      this.courses = res.record;
+      // console.log(res);
     });
   }
 }

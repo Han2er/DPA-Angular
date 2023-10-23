@@ -1,7 +1,8 @@
-<p>articles works!</p>
-<br />
-<div *ngFor="let art of data">
-  <h3>{{ art.title }}</h3>
-  <p>article: {{ art.article }}</p>
-  <br />
-</div>
+<article>
+  <h2>სიახლეები</h2>
+  <div *ngFor="let art of data" class="article-content">
+    <h3>{{ art.title }}</h3>
+    <p>{{ art.article }}</p>
+    <br />
+  </div>
+</article>

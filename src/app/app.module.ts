@@ -23,6 +23,7 @@ import { CourseInfoComponent } from './course-info/course-info.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { DashMainComponent } from './dash-main/dash-main.component';
 import { ArticlesComponent } from './articles/articles.component';
+import { DashCoursesComponent } from './dash-courses/dash-courses.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { ArticlesComponent } from './articles/articles.component';
     DashboardComponent,
     DashMainComponent,
     ArticlesComponent,
+    DashCoursesComponent,
   ],
   imports: [
     BrowserModule,

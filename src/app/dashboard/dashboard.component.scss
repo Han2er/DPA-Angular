@@ -1,6 +1,5 @@
 .dash-wrap {
   display: flex;
-  border: 1px solid red;
 }
 aside {
   display: flex;
@@ -9,6 +8,11 @@ aside {
   padding: 40px;
   padding-top: 80px;
   gap: 40px;
+}
+h2 {
+  border: none !important;
+  border-bottom: 2px solid !important;
+  color: #db00ff !important;
 }
 
 .btn {
@@ -20,6 +24,16 @@ aside {
   padding: 10px;
   border-radius: 10px;
 }
+div.btn {
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-out;
+    font-size: 24px;
+    font-weight: 900;
+  }
+}
 
 .btn-fill {
   color: black;
@@ -28,14 +42,14 @@ aside {
   background: #d9d9d9;
 }
 
-.btn-outline {
-  color: #d9d9d9;
-  border: 2px solid #d9d9d9;
-}
 .active {
   outline: 5px solid #db00ff;
 }
-
+.inactive {
+  color: #d9d9d9;
+  border: 2px solid #d9d9d9;
+  background: none;
+}
 //
 //
 main {
